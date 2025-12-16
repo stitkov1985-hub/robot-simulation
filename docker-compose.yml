@@ -1,0 +1,21 @@
+version: '3.8'  # Версия формата Docker Compose
+
+services:
+  # Название нашего сервиса (может быть любым)
+  simulation:
+    # build: . говорит Compose собрать образ из Dockerfile в текущей папке
+    build: .
+    
+    # Имя, которое будет присвоено собранному образу
+    image: my-robot-app:latest
+    
+    # Название контейнера при запуске
+    container_name: my_robot_container
+    
+    # Эти две опции (stdin_open и tty) заменяют флаг -it в команде docker run.
+    # Они позволяют взаимодействовать с программой (вводить команды в консоль).
+    stdin_open: true
+    tty: true
+    
+    # (Опционально) Перезапуск в случае ошибки
+    restart: "no"
