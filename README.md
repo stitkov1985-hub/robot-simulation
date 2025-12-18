@@ -1,11 +1,11 @@
 **Установка Docker и Docker Compose**
 
-![Доке компост](Доке компост установка и проверкаРабота без Рут.png)
+![Docker](Docker install Compost.png)
 
 **Разработка простой программы**
 
 1. *Robot.py*
-2. ![Проверка работа](Проверка работа способности файла.png)
+2. ![Proverka](Proverka radot faila.png)
 3. *Создание репозитория для проекта*
 
 **Создание Docker-образа для программы**
@@ -14,11 +14,11 @@
 2. ![Dockerfile](Dockerfile.png)
 3. *Проверка Docker-образа*
 4. *Запуск и тестирование Python-приложения в Docker-контейнере*
-5. ![Проверка работы](Проверка работы Докер файла.png)
+5. ![Docker fail](proverka radot Docker fail.png)
 
 **Работа с Docker Compose**
 
 - docker-compose.yml
 - Сборка и запуск
 - Подключение к консоли
-- ![Создание Docker Compose](создание ДокерКомпост и Проверка в работе.png)
+- ![Compost](Proverka Compost v radote.png)
