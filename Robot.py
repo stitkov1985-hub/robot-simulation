@@ -2,11 +2,11 @@
 x = 0
 y = 0
 
-print("Привет! Я робот. Команды: в (вперед), н (назад), л (лево), п (право), выход")
+print("Hello! I'm a robot. Teams: w (up), s (back), a (left), d (right), exit")
 
 while True:
-    print(f"Мои координаты: x={x}, y={y}")
-    команда = input("Куда идти? ").lower()
+    print(f"My coordinates: x={x}, y={y}")
+    команда = input("Where to go? ").lower()
 
     if команда == "d":
         y += 1
@@ -16,8 +16,8 @@ while True:
         x -= 1
     elif команда == "w":
         x += 1
-    elif команда == "выход":
-        print("Пока!")
+    elif команда == "exit":
+        print("Bye!")
         break
     else:
-        print("Я не знаю такой команды.")
+        print("I don't know such a command..")
