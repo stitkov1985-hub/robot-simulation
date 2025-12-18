@@ -1,10 +1,11 @@
 **Установка Docker и Docker Compose**
-
+*Docker install Compost.png*
 ![Docker install CompostDocker](Docker install Compost.png)
 
 **Разработка простой программы**
 
 1. *Robot.py*
+*Proverka radot faila*
 2. ![Proverka radot faila](Proverka radot faila.png)
 3. *Создание репозитория для проекта*
 
