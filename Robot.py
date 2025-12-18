@@ -6,17 +6,17 @@ print("Hello! I'm a robot. Teams: w (up), s (back), a (left), d (right), exit")
 
 while True:
     print(f"My coordinates: x={x}, y={y}")
-    команда = input("Where to go? ").lower()
+    team = input("Where to go? ").lower()
 
-    if команда == "d":
+    if team == "d":
         y += 1
-    elif команда == "a":
+    elif team == "a":
         y -= 1
-    elif команда == "s":
+    elif team == "s":
         x -= 1
-    elif команда == "w":
+    elif team == "w":
         x += 1
-    elif команда == "exit":
+    elif team == "exit":
         print("Bye!")
         break
     else:
